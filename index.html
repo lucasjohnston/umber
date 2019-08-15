@@ -13,38 +13,54 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#8A3324">
     <style>
         @font-face {
-            font-family: 'Eina 01 Bold';
-            src: url('fonts/eina-01-bold-webfont.woff2') format('woff2'),
-            url('fonts/eina-01-bold-webfont.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-
+            font-family: 'Eina 01';
+            src: url('fonts/Eina01-Bold.woff2') format('woff2'),
+            url('fonts/Eina01-Bold.woff') format('woff'),
+            url('fonts/Eina01-Bold.eot?#iefix') format('eot');
+            font-weight: 700;
+            unicode-range: U+000-5FF;
         }
         @font-face {
-            font-family: 'Galano Grotesque Alt Bold';
-            src: url('fonts/galanogrotesquealtdemo-bold-webfont.woff2') format('woff2'),
-            url('fonts/galanogrotesquealtdemo-bold-webfont.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
+            font-family: 'Eina 01';
+            src: url('fonts/Eina01-Regular.woff2') format('woff2'),
+            url('fonts/Eina01-Regular.woff') format('woff'),
+            url('fonts/Eina01-Regular.eot?#iefix') format('eot');
+            font-weight: 400;
+            unicode-range: U+000-5FF;
+        }
+        @font-face {
+            font-family: 'Eina 03';
+            src: url('fonts/Eina03-Bold.woff2') format('woff2'),
+            url('fonts/Eina03-Bold.woff') format('woff'),
+            url('fonts/Eina03-Bold.eot?#iefix') format('eot');
+            font-weight: 700;
+            unicode-range: U+000-5FF;
         }
         html, body {
             height: 100%;
             margin: 0;
         }
         html {
-            font-family: 'Galano Grotesque Alt Bold', -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+            font-family: 'Eina 01', -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
             font-size: calc(1em + 1vw);
+            font-weight: 400;
         }
         body {
             background-color: #8A3324;
             color: #FFF4EE;
         }
-        h1, h2, h3, h4, h5, h6 {
-            font-family: 'Eina 01 Bold', -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+        h1 {
+            font-family: 'Eina 01', -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+            font-weight: 700;
             margin: 0;
         }
-        p {
-            margin-top: 0.2em;
+        h2, h3, h4, h5, h6 {
+            font-family: 'Eina 03', -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+            font-weight: 700;
+            margin: 0;
+        }
+        h5 {
+            margin-top: 1em;
         }
         a {
             text-decoration: underline;
@@ -58,15 +74,23 @@
         }
         #inner {
             padding-left: 10%;
+            width: 80%;
         }
     </style>
 </head>
 <body>
     <div id="outer">
         <div id="inner">
-            <h1>umber</h1>
-            <p>the non-profit technology factory,<br />
-            founded by <a href="https://www.twitter.com/lucasjohnston">@lucasjohnston</a>.</p>
+            <h1>
+                <span style="letter-spacing: -0.06em">u</span><span style="letter-spacing: -0.08em">m</span><span style="letter-spacing: -0.04em">b</span><span style="letter-spacing: -0.06em">e</span><span style="letter-spacing: -0.088em">r</span>.
+            </h1>
+            <h5>
+                if you don&#39;t know, managing your money sucks if you&#39;re a student or a young person.<br /><br />
+                so, we&#39;re building a bank from the ground up designed just for young people.<br/><br>
+                a bank built by young people, for young people.<br /><br />
+                think you can help us?<br />
+                <a href="mailto:lucas@umber.xyz">reach out!</a>
+            </h5>
         </div>
     </div>
 </body>
