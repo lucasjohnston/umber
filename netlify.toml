@@ -1,0 +1,77 @@
+[[redirects]]
+  from = "https://umbermoney.netlify.com"
+  to = "https://umber.co"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://umbermoney.com"
+  to = "https://umber.co"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.umbermoney.com"
+  to = "https://umber.co"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://umber.xyz"
+  to = "https://umber.co"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.umber.xyz"
+  to = "https://umber.co"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://umbermoney.co.uk"
+  to = "https://umber.co"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.umbermoney.co.uk"
+  to = "https://umber.co"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://umber.money"
+  to = "https://umber.co"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.umber.money"
+  to = "https://umber.co"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://umber.co.uk"
+  to = "https://umber.co"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.umber.co.uk"
+  to = "https://umber.co"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://umber.uk"
+  to = "https://umber.co"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.umber.uk"
+  to = "https://umber.co"
+  status = 301
+  force = true
